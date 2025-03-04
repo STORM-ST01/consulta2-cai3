@@ -36,10 +36,10 @@ def decrypt_aes_gcm(ciphertext, tag, key, iv):
 
 # Cargar archivos DICOM desde la misma carpeta del script
 dicom_files = {
-    "100Kb": ("cai3\primero.dcm", 12),
-    "500Kb": ("cai3\segundo.dcm", 46),
-    "1000Kb": ("cai3\mil.dcm", 24),
-    "1500Kb": ("cai3\cuarto.dcm", 18)
+    "100Kb": ("primero.dcm", 12),
+    "500Kb": ("segundo.dcm", 46),
+    "1000Kb": ("mil.dcm", 24),
+    "1500Kb": ("cuarto.dcm", 18)
 }
 
 # Claves aleatorias para cada algoritmo
